@@ -1,0 +1,855 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hiring Task</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap-4.3.1.css" rel="stylesheet">
+	  <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+	  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+	  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	  
+	  
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid" style="padding-left: 325px">
+        <a class="navbar-brand" href="#"><img src="taxman.jpg" alt="Taxmann Home" width="80%"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+			  
+			  <form class="form-inline my-2 my-lg-0">
+				 <input class="form-control ml-sm-2" type="search" placeholder="Search anything on tax and Corporate law in bookstore" aria-label="Search" style="width:600px;border-radius:15px">
+				  <button type="submit" class="btn btn-primary" onClick="Submit">Search</button>
+          </form>
+           
+            <li class="nav-item ml-sm-5">
+              <a class="nav-link cart-icon" href="#"></a>
+            </li>
+			  <li class="nav-item">
+			  <a class="nav-link notification-icon" href="#"></a>
+			  </li>
+			  <li class="nav-item">
+			  <a class="nav-link user-icon" href="#"></a>
+			  </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link toggle-icon" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					
+				</a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Profile</a>
+                <a class="dropdown-item" href="#">Wallet</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Transaction History</a>
+              </div>
+            </li>
+			   
+          </ul>
+          
+        </div>
+      </div>
+    </nav>
+	  
+	  <div class="section">
+		  <script>
+			  var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+		  </script>
+		  
+	  <div class="row justify-content-center little-top-margin">
+		  <script>
+			  function check(){
+				  if(document.getElementById('sidenavigation').style.display=='block'){
+					  sidenav();
+				  }
+				  else{
+					  viewsidenav();
+				  }
+			  }
+		  function sidenav(){
+			  document.getElementById('sidenavigation').style.display='none';
+		  }
+			  function viewsidenav(){
+				  
+			  document.getElementById('sidenavigation').style.display='block';
+			  }
+			  
+		  </script>
+	    <div class="col-2 text-left padding-side">
+			<label class="switch">
+			<input type="checkbox" id="togBtn" onClick="check()">
+			<div class="slider round"></div>
+			</label>
+			  
+			  <div class="sidenav padding-side little-top-margin" id="sidenavigation">
+				  
+				  <li class="sidenav-list">BookStore Home</li>
+				  
+				  
+				<div class="panel-group little-top-margin ">
+				  <div class="panel panel-default">
+  					  <div class="panel-heading">
+   					   <h4 class="panel-title">
+    			    <a data-toggle="collapse" href="#collapse1" class="sidenav-list"><span>Professional Books</span></a>
+     				 </h4>
+   					</div>
+    				<div id="collapse1" class="panel-collapse collapse">
+     				 <ul class="sidenav-list">
+       				 	<li>Direct Tax Laws</li>
+        				<li>International Taxation</li>
+        				<li>Indirect Tax Laws</li>
+						 <li>Insolvency and Bankruptcy Code</li>
+						 <li>GST</li>
+						 <li>Accounts and Audit</li>
+						 <li>Banking and Insurance</li>
+						 <li>Bare Acts</li>
+      				</ul>
+				    </div>
+				  </div>
+					  <div class="panel panel-default">
+  					  <div class="panel-heading">
+   					   <h4 class="panel-title">
+    			    <a data-toggle="collapse" href="#collapse2" class="sidenav-list"><span></span>NISM/IIBF</a>
+     				 </h4>
+    					</div>
+    				<div id="collapse2" class="panel-collapse collapse">
+     				 <ul class="sidenav-list">
+       				 	<li>Direct Tax Laws</li>
+        				<li>International Taxation</li>
+        				<li>Indirect Tax Laws</li>
+						 <li>Insolvency and Bankruptcy Code</li>
+						 <li>GST</li>
+						 <li>Accounts and Audit</li>
+						 <li>Banking and Insurance</li>
+						 <li>Bare Acts</li>
+      				</ul>
+				    </div>
+				  </div>
+					  <div class="panel panel-default">
+  					  <div class="panel-heading">
+   					   <h4 class="panel-title">
+    			    <a data-toggle="collapse" href="#collapse3" class="sidenav-list"><span></span>Journals</a>
+     				 </h4>
+    					</div>
+    				<div id="collapse3" class="panel-collapse collapse">
+     				 <ul class="sidenav-list">
+       				 	<li>One</li>
+        				<li>Two</li>
+        				<li>Three</li>
+      				</ul>
+				    </div>
+				  </div>
+					<div class="panel panel-default">
+  					  <div class="panel-heading">
+   					   <h4 class="panel-title">
+    			    <a data-toggle="collapse" href="#collapse2" class="sidenav-list"><span></span>Tax Compliance on DVD</a>
+     				 </h4>
+   					  </div>
+    				<div id="collapse4" class="panel-collapse collapse">
+     				 <ul class="sidenav-list">
+       				 	<li>Direct Tax Laws</li>
+        				<li>International Taxation</li>
+        				<li>Indirect Tax Laws</li>
+						 <li>Insolvency and Bankruptcy Code</li>
+						 <li>GST</li>
+						 <li>Accounts and Audit</li>
+						 <li>Banking and Insurance</li>
+						 <li>Bare Acts</li>
+      				</ul>
+				    </div>
+				  </div>
+					<div class="panel panel-default">
+  					  <div class="panel-heading">
+   					   <h4 class="panel-title">
+    			    <a data-toggle="collapse" href="#collapse2" class="sidenav-list"><span></span>Taxmann Online on DVD</a>
+     				 </h4>
+   					  </div>
+    				<div id="collapse5" class="panel-collapse collapse">
+     				 <ul class="sidenav-list">
+       				 	<li>Direct Tax Laws</li>
+        				<li>International Taxation</li>
+        				<li>Indirect Tax Laws</li>
+						 <li>Insolvency and Bankruptcy Code</li>
+						 <li>GST</li>
+						 <li>Accounts and Audit</li>
+						 <li>Banking and Insurance</li>
+						 <li>Bare Acts</li>
+      				</ul>
+				    </div>
+				  </div>
+					<div class="panel panel-default">
+  					  <div class="panel-heading">
+   					   <h4 class="panel-title">
+    			    <a data-toggle="collapse" href="#collapse2" class="sidenav-list"><span></span>Taxmann Online on Web</a>
+     				 </h4>
+   					  </div>
+    				<div id="collapse6" class="panel-collapse collapse">
+     				 <ul class="sidenav-list">
+       				 	<li>Direct Tax Laws</li>
+        				<li>International Taxation</li>
+        				<li>Indirect Tax Laws</li>
+						 <li>Insolvency and Bankruptcy Code</li>
+						 <li>GST</li>
+						 <li>Accounts and Audit</li>
+						 <li>Banking and Insurance</li>
+						 <li>Bare Acts</li>
+      				</ul>
+				    </div>
+				  </div>
+					<div class="panel panel-default">
+  					  <div class="panel-heading">
+   					   <h4 class="panel-title">
+    			    <a data-toggle="collapse" href="#collapse2" class="sidenav-list"><span></span>E-Services</a>
+     				 </h4>
+   					  </div>
+    				<div id="collapse11" class="panel-collapse collapse">
+     				 <ul class="sidenav-list">
+       				 	<li>Direct Tax Laws</li>
+        				<li>International Taxation</li>
+        				<li>Indirect Tax Laws</li>
+						 <li>Insolvency and Bankruptcy Code</li>
+						 <li>GST</li>
+						 <li>Accounts and Audit</li>
+						 <li>Banking and Insurance</li>
+						 <li>Bare Acts</li>
+      				</ul>
+				    </div>
+				  </div>
+					<div class="panel panel-default">
+  					  <div class="panel-heading">
+   					   <h4 class="panel-title">
+    			    <a data-toggle="collapse" href="#collapse2" class="sidenav-list"><span></span>E-Journals</a>
+     				 </h4>
+   					  </div>
+    				<div id="collapse9" class="panel-collapse collapse">
+     				 <ul class="sidenav-list">
+       				 	<li>Direct Tax Laws</li>
+        				<li>International Taxation</li>
+        				<li>Indirect Tax Laws</li>
+						 <li>Insolvency and Bankruptcy Code</li>
+						 <li>GST</li>
+						 <li>Accounts and Audit</li>
+						 <li>Banking and Insurance</li>
+						 <li>Bare Acts</li>
+      				</ul>
+				    </div>
+				  </div>
+					<div class="panel panel-default">
+  					  <div class="panel-heading">
+   					   <h4 class="panel-title">
+    			    <a data-toggle="collapse" href="#collapse2" class="sidenav-list"><span></span>E-Books</a>
+     				 </h4>
+   					  </div>
+    				<div id="collapse10" class="panel-collapse collapse">
+     				 <ul class="sidenav-list">
+       				 	<li>Direct Tax Laws</li>
+        				<li>International Taxation</li>
+        				<li>Indirect Tax Laws</li>
+						 <li>Insolvency and Bankruptcy Code</li>
+						 <li>GST</li>
+						 <li>Accounts and Audit</li>
+						 <li>Banking and Insurance</li>
+						 <li>Bare Acts</li>
+      				</ul>
+				    </div>
+				  </div>
+				</div> 
+				  <hr noshade>
+				  <liheading class="sidenav-list">Quick Links</liheading>
+				  <hr>
+					  <li class="sidenav-list">Bookmann India</li>
+					  <li class="sidenav-list">Authors</li>
+					  <li class="sidenav-list">Catalogue</li>
+					  <li class="sidenav-list">Dealers</li>
+				  
+			  </div>
+				
+	    </div>
+		  <div class="col-7">
+		    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" >
+  				<div class="carousel-inner">
+   					 <div class="carousel-item active">
+						 <div class="row justify-content-center" style="column-gap: 50px">
+						 <div class="col-4">
+							      				 <img src="images/image3.png" alt="..." style="max-height:400px;width:400px">
+
+							 </div>
+							 <div class="col-4 text-center" style="padding-top: 25px; background-color: #FFFFFF; border: 1px solid darkgray">
+								 <h2 class="font24" style="color:orangered"> Subscription 2019</h2>
+								 <h2 class="font20">Boost your Practice</h2>
+							 
+							 </div>
+						 </div>
+   					 </div>
+    				<div class="carousel-item" >
+      					<div class="row justify-content-center" style="column-gap: 50px">
+						<div class="col-4">
+							<img src="images/image3.png" alt="..." style="max-height:400px;width:400px">
+
+							</div>
+							<div class="col-4 text-center" style="padding-top: 25px; background-color: #FFFFFF; border: 1px solid darkgray">
+								 <h2 class="font24" style="color:orangered"> Subscription 2019</h2>
+								 <h2 class="font20">Boost your Practice</h2>
+							 
+							 </div>
+						</div>
+						
+    				</div>
+    				<div class="carousel-item">
+     					 <div class="row justify-content-center" style="column-gap: 50px">
+						<div class="col-4">
+							<img src="images/image3.png" alt="..." style="max-height:400px;width:400px">
+
+							</div>
+							<div class="col-4 text-center" style="padding-top: 25px; background-color: #FFFFFF; border: 1px solid darkgray">
+								 <h2 class="font24" style="color:orangered"> Subscription 2019</h2>
+								 <h2 class="font20">Boost your Practice</h2>
+							 
+							 </div>
+						</div>
+    				</div>
+  				</div>
+  			<a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+   				 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+   			 <span class="sr-only">Previous</span>
+ 			 </a>
+  				<a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+   				 <span class="carousel-control-next-icon" aria-hidden="true"></span>
+   				 <span class="sr-only">Next</span>
+ 				 </a>
+			</div>
+			 <button class="btn font20 font-weight-bold" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample"  style="margin-top: 40px">
+    Recommended For You<img src="images/drop-down-arrow.png" alt="..." class="drop-icon">
+  </button>
+			  <div class="collapse show" id="collapseExample">
+  				<div class="row justify-content-center little-top-margin">
+				  <div class="col-3">
+					<div class="card text-center">
+						<div class="ribbon"><span>Best Seller</span></div>
+					  <div class="card-body">
+						  <div class="card-header-pills"></div>
+						<img class="card-img-top" src="images/Bitmap.png" width="100px" alt="...">
+						  <div class="card-title">Income Tax Rules with Master Guide to Income Tax Rules</div>
+						  <div class="card-subtitle"><a href="#" style="color:red">Aditya Godge</a>, <a href="#" style="color:red">Biharilal Deora</a></div>
+						  <div class="card-text">
+							  <div class="row justify-content-center"><div class="col-auto">Rs. 345</div><div class="col-auto"><span class="fa fa-star checked"></span>
+					<span class="fa fa-star checked"></span>
+					<span class="fa fa-star checked"></span>
+				<span class="fa fa-star"></span>
+					<span class="fa fa-star"></span></div></div></div>
+						  <div class="row little-top-margin">
+						  <div class="col-6">
+							  <button class="btn btn-outline-info">Add Cart</button>
+							  </div>
+							  <div class="col-6">
+							  <button class="btn btn-primary">Buy Now</button>
+							  </div>
+						  </div>
+						</div>
+					  </div>
+					</div>
+					<div class="col-3">
+					<div class="card text-center">
+					  <div class="card-body">
+						  <div class="card-header-pills"></div>
+						<img class="card-img-top" src="images/Bitmap.png" width="100px" alt="...">
+						  <div class="card-title">Income Tax Rules with Master Guide to Income Tax Rules</div>
+						  <div class="card-subtitle"><a href="#" style="color:red">Aditya Godge</a>, <a href="#" style="color:red">Biharilal Deora</a></div>
+						  <div class="card-text">
+							  <div class="row justify-content-center"><div class="col-auto">Rs. 345</div><div class="col-auto"><span class="fa fa-star checked"></span>
+					<span class="fa fa-star checked"></span>
+					<span class="fa fa-star checked"></span>
+				<span class="fa fa-star"></span>
+					<span class="fa fa-star"></span></div></div></div>
+						  <div class="row little-top-margin">
+						  <div class="col-6">
+							  <button class="btn btn-outline-info">Add Cart</button>
+							  </div>
+							  <div class="col-6">
+							  <button class="btn btn-primary">Buy Now</button>
+							  </div>
+						  </div>
+						</div>
+					  </div>
+					</div>
+					<div class="col-3">
+					<div class="card text-center">
+						<div class="ribbon"><span>Limited Edition</span></div>
+					  <div class="card-body">
+						  <div class="card-header-pills"></div>
+						<img class="card-img-top" src="images/Bitmap.png" width="100px" alt="...">
+						  <div class="card-title">Income Tax Rules with Master Guide to Income Tax Rules</div>
+						  <div class="card-subtitle"><a href="#" style="color:red">Aditya Godge</a>, <a href="#" style="color:red">Biharilal Deora</a></div>
+						  <div class="card-text">
+							  <div class="row justify-content-center"><div class="col-auto">Rs. 345</div><div class="col-auto"><span class="fa fa-star checked"></span>
+					<span class="fa fa-star checked"></span>
+					<span class="fa fa-star checked"></span>
+				<span class="fa fa-star"></span>
+					<span class="fa fa-star"></span></div></div></div>
+						  <div class="row little-top-margin">
+						  <div class="col-6">
+							  <button class="btn btn-outline-info">Add Cart</button>
+							  </div>
+							  <div class="col-6">
+							  <button class="btn btn-primary">Buy Now</button>
+							  </div>
+						  </div>
+						</div>
+					  </div>
+					</div>
+				  </div>
+				  <div class="row justify-content-center little-top-margin">
+				  <div class="col-3">
+					<div class="card text-center">
+						<div class="ribbon"><span>Best Seller</span></div>
+					  <div class="card-body">
+						  <div class="card-header-pills"></div>
+						<img class="card-img-top" src="images/Bitmap.png" width="100px" alt="...">
+						  <div class="card-title">Income Tax Rules with Master Guide to Income Tax Rules</div>
+						  <div class="card-subtitle"><a href="#" style="color:red">Aditya Godge</a>, <a href="#" style="color:red">Biharilal Deora</a></div>
+						  <div class="card-text">
+							  <div class="row justify-content-center"><div class="col-auto">Rs. 345</div><div class="col-auto"><span class="fa fa-star checked"></span>
+					<span class="fa fa-star checked"></span>
+					<span class="fa fa-star checked"></span>
+				<span class="fa fa-star"></span>
+					<span class="fa fa-star"></span></div></div></div>
+						  <div class="row little-top-margin">
+						  <div class="col-6">
+							  <button class="btn btn-outline-info">Add Cart</button>
+							  </div>
+							  <div class="col-6">
+							  <button class="btn btn-primary">Buy Now</button>
+							  </div>
+						  </div>
+						</div>
+					  </div>
+					</div>
+					<div class="col-3">
+					<div class="card text-center">
+					  <div class="card-body">
+						  <div class="card-header-pills"></div>
+						<img class="card-img-top" src="images/Bitmap.png" width="100px" alt="...">
+						  <div class="card-title">Income Tax Rules with Master Guide to Income Tax Rules</div>
+						  <div class="card-subtitle"><a href="#" style="color:red">Aditya Godge</a>, <a href="#" style="color:red">Biharilal Deora</a></div>
+						  <div class="card-text">
+							  <div class="row justify-content-center"><div class="col-auto">Rs. 345</div><div class="col-auto"><span class="fa fa-star checked"></span>
+					<span class="fa fa-star checked"></span>
+					<span class="fa fa-star checked"></span>
+				<span class="fa fa-star"></span>
+					<span class="fa fa-star"></span></div></div></div>
+						  <div class="row little-top-margin">
+						  <div class="col-6">
+							  <button class="btn btn-outline-info">Add Cart</button>
+							  </div>
+							  <div class="col-6">
+							  <button class="btn btn-primary">Buy Now</button>
+							  </div>
+						  </div>
+						</div>
+					  </div>
+					</div>
+					<div class="col-3">
+					<div class="card text-center">
+						<div class="ribbon"><span>Limited Edition</span></div>
+					  <div class="card-body">
+						  <div class="card-header-pills"></div>
+						<img class="card-img-top" src="images/Bitmap.png" width="100px" alt="...">
+						  <div class="card-title">Income Tax Rules with Master Guide to Income Tax Rules</div>
+						  <div class="card-subtitle"><a href="#" style="color:red">Aditya Godge</a>, <a href="#" style="color:red">Biharilal Deora</a></div>
+						  <div class="card-text">
+							  <div class="row justify-content-center"><div class="col-auto">Rs. 345</div><div class="col-auto"><span class="fa fa-star checked"></span>
+					<span class="fa fa-star checked"></span>
+					<span class="fa fa-star checked"></span>
+				<span class="fa fa-star"></span>
+					<span class="fa fa-star"></span></div></div></div>
+						  <div class="row little-top-margin">
+						  <div class="col-6">
+							  <button class="btn btn-outline-info">Add Cart</button>
+							  </div>
+							  <div class="col-6">
+							  <button class="btn btn-primary">Buy Now</button>
+							  </div>
+						  </div>
+						</div>
+					  </div>
+					</div>
+				  </div>
+				</div>
+			  <br>
+			  <button class="btn font20 font-weight-bold" type="button" data-toggle="collapse" data-target="#collapseExample2" aria-expanded="false" aria-controls="collapseExample"  style="margin-top: 40px">
+    New Releases<img src="images/drop-down-arrow.png" alt="..." class="drop-icon">
+  </button>
+			  <div class="collapse show" id="collapseExample2">
+  				<div class="row justify-content-center little-top-margin">
+				  <div class="col-3">
+					<div class="card text-center">
+						<div class="ribbon"><span>Best Seller</span></div>
+					  <div class="card-body">
+						  <div class="card-header-pills"></div>
+						<img class="card-img-top" src="images/Bitmap.png" width="100px" alt="...">
+						  <div class="card-title">Income Tax Rules with Master Guide to Income Tax Rules</div>
+						  <div class="card-subtitle"><a href="#" style="color:red">Aditya Godge</a>, <a href="#" style="color:red">Biharilal Deora</a></div>
+						  <div class="card-text">
+							  <div class="row justify-content-center"><div class="col-auto">Rs. 345</div><div class="col-auto"><span class="fa fa-star checked"></span>
+					<span class="fa fa-star checked"></span>
+					<span class="fa fa-star checked"></span>
+				<span class="fa fa-star"></span>
+					<span class="fa fa-star"></span></div></div></div>
+						  <div class="row little-top-margin">
+						  <div class="col-6">
+							  <button class="btn btn-outline-info">Add Cart</button>
+							  </div>
+							  <div class="col-6">
+							  <button class="btn btn-primary">Buy Now</button>
+							  </div>
+						  </div>
+						</div>
+					  </div>
+					</div>
+					<div class="col-3">
+					<div class="card text-center">
+					  <div class="card-body">
+						  <div class="card-header-pills"></div>
+						<img class="card-img-top" src="images/Bitmap.png" width="100px" alt="...">
+						  <div class="card-title">Income Tax Rules with Master Guide to Income Tax Rules</div>
+						  <div class="card-subtitle"><a href="#" style="color:red">Aditya Godge</a>, <a href="#" style="color:red">Biharilal Deora</a></div>
+						  <div class="card-text">
+							  <div class="row justify-content-center"><div class="col-auto">Rs. 345</div><div class="col-auto"><span class="fa fa-star checked"></span>
+					<span class="fa fa-star checked"></span>
+					<span class="fa fa-star checked"></span>
+				<span class="fa fa-star"></span>
+					<span class="fa fa-star"></span></div></div></div>
+						  <div class="row little-top-margin">
+						  <div class="col-6">
+							  <button class="btn btn-outline-info">Add Cart</button>
+							  </div>
+							  <div class="col-6">
+							  <button class="btn btn-primary">Buy Now</button>
+							  </div>
+						  </div>
+						</div>
+					  </div>
+					</div>
+					<div class="col-3">
+					<div class="card text-center">
+						<div class="ribbon"><span>Limited Edition</span></div>
+					  <div class="card-body">
+						  <div class="card-header-pills"></div>
+						<img class="card-img-top" src="images/Bitmap.png" width="100px" alt="...">
+						  <div class="card-title">Income Tax Rules with Master Guide to Income Tax Rules</div>
+						  <div class="card-subtitle"><a href="#" style="color:red">Aditya Godge</a>, <a href="#" style="color:red">Biharilal Deora</a></div>
+						  <div class="card-text">
+							  <div class="row justify-content-center"><div class="col-auto">Rs. 345</div><div class="col-auto"><span class="fa fa-star checked"></span>
+					<span class="fa fa-star checked"></span>
+					<span class="fa fa-star checked"></span>
+				<span class="fa fa-star"></span>
+					<span class="fa fa-star"></span></div></div></div>
+						  <div class="row little-top-margin">
+						  <div class="col-6">
+							  <button class="btn btn-outline-info">Add Cart</button>
+							  </div>
+							  <div class="col-6">
+							  <button class="btn btn-primary">Buy Now</button>
+							  </div>
+						  </div>
+						</div>
+					  </div>
+					</div>
+				  </div>
+				  <div class="row justify-content-center little-top-margin">
+				  <div class="col-3">
+					<div class="card text-center">
+						<div class="ribbon"><span>Best Seller</span></div>
+					  <div class="card-body">
+						  <div class="card-header-pills"></div>
+						<img class="card-img-top" src="images/Bitmap.png" width="100px" alt="...">
+						  <div class="card-title">Income Tax Rules with Master Guide to Income Tax Rules</div>
+						  <div class="card-subtitle"><a href="#" style="color:red">Aditya Godge</a>, <a href="#" style="color:red">Biharilal Deora</a></div>
+						  <div class="card-text">
+							  <div class="row justify-content-center"><div class="col-auto">Rs. 345</div><div class="col-auto"><span class="fa fa-star checked"></span>
+					<span class="fa fa-star checked"></span>
+					<span class="fa fa-star checked"></span>
+				<span class="fa fa-star"></span>
+					<span class="fa fa-star"></span></div></div></div>
+						  <div class="row little-top-margin">
+						  <div class="col-6">
+							  <button class="btn btn-outline-info">Add Cart</button>
+							  </div>
+							  <div class="col-6">
+							  <button class="btn btn-primary">Buy Now</button>
+							  </div>
+						  </div>
+						</div>
+					  </div>
+					</div>
+					<div class="col-3">
+					<div class="card text-center">
+					  <div class="card-body">
+						  <div class="card-header-pills"></div>
+						<img class="card-img-top" src="images/Bitmap.png" width="100px" alt="...">
+						  <div class="card-title">Income Tax Rules with Master Guide to Income Tax Rules</div>
+						  <div class="card-subtitle"><a href="#" style="color:red">Aditya Godge</a>, <a href="#" style="color:red">Biharilal Deora</a></div>
+						  <div class="card-text">
+							  <div class="row justify-content-center"><div class="col-auto">Rs. 345</div><div class="col-auto"><span class="fa fa-star checked"></span>
+					<span class="fa fa-star checked"></span>
+					<span class="fa fa-star checked"></span>
+				<span class="fa fa-star"></span>
+					<span class="fa fa-star"></span></div></div></div>
+						  <div class="row little-top-margin">
+						  <div class="col-6">
+							  <button class="btn btn-outline-info">Add Cart</button>
+							  </div>
+							  <div class="col-6">
+							  <button class="btn btn-primary">Buy Now</button>
+							  </div>
+						  </div>
+						</div>
+					  </div>
+					</div>
+					<div class="col-3">
+					<div class="card text-center">
+						<div class="ribbon"><span>Limited Edition</span></div>
+					  <div class="card-body">
+						  <div class="card-header-pills"></div>
+						<img class="card-img-top" src="images/Bitmap.png" width="100px" alt="...">
+						  <div class="card-title">Income Tax Rules with Master Guide to Income Tax Rules</div>
+						  <div class="card-subtitle"><a href="#" style="color:red">Aditya Godge</a>, <a href="#" style="color:red">Biharilal Deora</a></div>
+						  <div class="card-text">
+							  <div class="row justify-content-center"><div class="col-auto">Rs. 345</div><div class="col-auto"><span class="fa fa-star checked"></span>
+					<span class="fa fa-star checked"></span>
+					<span class="fa fa-star checked"></span>
+				<span class="fa fa-star"></span>
+					<span class="fa fa-star"></span></div></div></div>
+						  <div class="row little-top-margin">
+						  <div class="col-6">
+							  <button class="btn btn-outline-info">Add Cart</button>
+							  </div>
+							  <div class="col-6">
+							  <button class="btn btn-primary">Buy Now</button>
+							  </div>
+						  </div>
+						</div>
+					  </div>
+					</div>
+				  </div>
+				</div>
+			   		  
+          </div>
+		  
+		  <div class="col-2">
+			  <div class="card">
+			  <div class="card-body">
+				  <div class="row">
+				  <div class="col-3">
+					  <img src="images/Orion_truck.svg" alt="delivery truck">
+					  </div>
+					  <div class="col-9">
+						  <font class="font-weight-bolder">Quick Delivery</font>
+						  <p class="font-weight-lighter font14">FedEx Courier in most Cities</p>
+					  </div>
+				  </div>
+				  <div class="row">
+				  <div class="col-3">
+					  <img src="images/Orion_archive-box.svg" alt="archieve box">
+					  </div>
+					  <div class="col-9">
+						  <font class="font-weight-bolder">Free Shipping</font>
+						  <p class="font-weight-lighter font14">Across India on order aboce Rs. 350</p>
+					  </div>
+				  </div>
+				  <div class="row">
+				  <div class="col-3">
+					  <img src="images/Orion_secure-payment (1).svg" alt="secure payment">
+					  </div>
+					  <div class="col-9">
+						  <font class="font-weight-bolder">Secured Payment</font>
+						  <p class="font-weight-lighter font14">Taxmann Provides secure services</p>
+					  </div>
+				  </div>
+				  
+				  
+				  </div>
+			  </div>
+			  <h2 class="little-top-margin font18">Offers</h2>
+			  <div class="card">
+			  <div class="card-body">
+				  <img class="card-img-top" src="images/image1.png" alt="card image">
+				  <div class="card-title font18">
+				  Super Deal of a Lifetime
+				  </div>
+				  <div class="card-text">
+					  Get 2 modules at a price of 1 module
+				  </div>
+				  <a class="card-link" href="#">Know More</a>
+				  
+				  </div>
+			  
+			  </div>
+			  <hr>
+			  <div class="card">
+			  <div class="card-body">
+				  <img class="card-img-top" src="images/image2.png" alt="card image">
+				  <div class="card-title font18">
+				  Books Under Rs 599 Only
+				  </div>
+				  <div class="card-text">
+					 5000+ Books on Income tax and Corporate Tax
+				  </div>
+				  <a class="card-link" href="#">Know More</a>
+				  
+				  </div>
+			  
+			  </div>
+			  <hr>
+			  <div class="card">
+			  <div class="card-body">
+				  <img class="card-img-top" src="images/image1.png" alt="card image">
+				  <div class="card-title font18">
+				  Super Deal of a Lifetime
+				  </div>
+				  <div class="card-text">
+					  Get 2 modules at a price of 1 module
+				  </div>
+				  <a class="card-link" href="#">Know More</a>
+				  
+				  </div>
+			  
+			  </div>
+			  <hr>
+			  <div class="card">
+			  <div class="card-body">
+				  <img class="card-img-top" src="images/image2.png" alt="card image">
+				  <div class="card-title font18">
+				  Books Under Rs 599 Only
+				  </div>
+				  <div class="card-text">
+					 5000+ Books on Income tax and Corporate Tax
+				  </div>
+				  <a class="card-link" href="#">Know More</a>
+				  
+				  </div>
+			  
+			  </div>
+			  
+		  </div>
+		  
+	    </div>
+	  </div>
+    <div class="section" style="min-height:500px;width:auto">
+	  <hr>
+		<div class="row justify-content-center">
+		<div class="col-2" style="margin-left:100px">
+		  <img src="taxman.jpg" alt="Taxman">
+			<p class="small">Everything you need on Income Tax, GST and Corporate Laws. Authentic databases, books, journals, Practice and Exam platforms.</p>
+		  	<div class="row">
+			<div class="column">
+				<img src="google-play-badge.png" alt="Google Play App download" style="width:140px;height:60px">
+				</div>
+			<div class="column little-top-margin">
+				<img src="app-store.png" alt="App Store Download" style="width:140px;height:40px">
+				</div>
+			</div>
+			<img src="images/iconfinder_Rounded_Facebook_svg_5282541.png" alt="Facebook" style="width:30px;height:30px;margin-right:10px">
+			<img src="images/iconfinder_Rounded_Twitter5_svg_5282551.png" alt="Facebook" style="width:30px;height:30px;margin-right:10px">
+			<img src="images/iconfinder_Rounded_Linkedin2_svg_5282542.png" alt="Facebook" style="width:30px;height:30px;margin-right:10px">
+			<img src="images/iconfinder_Rounded_Youtube3_svg_5282548.png" alt="Facebook" style="width:30px;height:30px;margin-right:10px">
+
+		<footer class="small">
+			Copyright 2019 Taxmann.com. All Rights Reserved.
+			</footer>
+
+		  </div>
+		<div class="col-2 text-left" style="margin-left: 80px">
+		  <h6>Products</h6>
+			<h7 style="text-transform:normal" class="small">Research</h7><br>
+			<h7 style="text-transform:normal" class="small">Practice</h7><br>
+			<h7 style="text-transform:normal" class="small">Exam</h7><br>
+			<h7 style="text-transform:normal" class="small">Compliance</h7><br>
+			<h7 style="text-transform:normal" class="small">Taxmann Bookstore</h7><br>
+			<h7 style="text-transform:normal" class="small">Taxmann Blog</h7><br>
+			<h6 class="little-top-margin">About Company</h6>
+			<h7 style="text-transform:normal" class="small">History</h7><br>
+			<h7 style="text-transform:normal" class="small">Board of Directors</h7><br>
+			<h7 style="text-transform:normal" class="small">Media Coverage</h7><br>
+			<h7 style="text-transform:normal" class="small">Txmann Education(CSR)</h7><br>
+			<h7 style="text-transform:normal" class="small">Careers</h7><br>
+	    </div>
+		  <div class="col-2 text-left">
+		  <h6>Catalogue</h6>
+			  <h7 style="text-transform:normal" class="small">Academic</h7><br>
+			  <h7 style="text-transform:normal" class="small">Professional</h7><br>
+			  <h7 style="text-transform:normal" class="small">Bare Acts</h7><br>
+			  <h7 style="text-transform:normal" class="small">Banking & Finance</h7><br>
+			  <h7 style="text-transform:normal" class="small">NISM Certification Courses</h7><br>
+			  <h7 style="text-transform:normal" class="small">NISM Certification Courses</h7><br>
+			  <h7 style="text-transform:normal" class="small">One Solution TDS & ITR</h7><br>
+			  <h7 style="text-transform:normal" class="small">Goods and Services Tax</h7><br>
+			  <h7 style="text-transform:normal" class="small">LLB. Series</h7><br>
+			  <h7 style="text-transform:normal" class="small">Insolvency and Bankruputcy</h7><br>
+		  </div>
+		  <div class="col-2">
+		  <h6>Authors</h6>
+			   <h7 style="text-transform:normal" class="small">Academic</h7><br>
+			  <h7 style="text-transform:normal" class="small">Professional</h7><br>
+			  <h7 style="text-transform:normal" class="small">A-Z</h7><br>
+			  
+			  <h6 class="little-top-margin">BookStore Support</h6>
+			  			  <h7 style="text-transform:normal" class="small">Quick Delivery With Fedex</h7><br>
+			  <h7 style="text-transform:normal" class="small">Secured Payment</h7><br>
+			  <h7 style="text-transform:normal" class="small">Free Shipping above Rs 350</h7><br>
+			  			  <h7 style="text-transform:normal" class="small">Missed Call Support @<a href="tel:+45562222">45562222</a></h7><br>
+			 
+
+		  
+		  </div>
+		  <div class="col-2">
+		  <h6>Business & Support</h6>
+			  			   <h7 style="text-transform:normal" class="small">Sell With Taxmann</h7><br>
+			  			   <h7 style="text-transform:normal" class="small">Locate Dealers</h7><br>
+			  			   <h7 style="text-transform:normal" class="small">Locate Representatives</h7><br>
+			  			   <h7 style="text-transform:normal" class="small">Contact Us</h7><br>
+
+		<h6 class="little-top-margin">Legal</h6>
+			  			   <h7 style="text-transform:normal" class="small">Privacy Policy</h7><br>
+			  			   <h7 style="text-transform:normal" class="small">Return Policy</h7><br>
+			  			   <h7 style="text-transform:normal" class="small">Payment Terms</h7><br>
+			  			   <h7 style="text-transform:normal" class="small">Disclaimer</h7><br>
+			  			   <h7 style="text-transform:normal" class="small">EULA</h7><br>
+
+
+
+
+
+
+		  
+		  </div>
+		  
+		
+	  </div>
+	  
+	  </div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap-4.3.1.js"></script>
+  </body>
+</html>
